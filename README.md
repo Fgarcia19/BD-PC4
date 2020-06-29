@@ -45,4 +45,6 @@ N=800 | 0.1184 |0.00259
 Como se aprecia en los resultados obtenidos una búsqueda a través del R Tree es mucho mas rapida que una secuencial, debido a que no tiene que buscar por la totalidad de elementos sino en grupos cada vez más reducidos.
 
 ## Comentarios
-En el uso del R Tree,este se guarda en disco por su cuenta.Sin embargo, cuando trataba de usarlo después de haber sido creado previamente me daba error siempre por lo que opte por,lo cual se podrá apreciar en el código,que cada vez que se llame a la función eliminará al índice que esté en disco y creará uno nuevo para que no me de dicho error, cabe decir que esta creación no se toma en cuenta al momento de medir los tiempos de ejecución de la búsqueda en este índice
+En el uso del R Tree,este se guarda en disco por su cuenta.Sin embargo, cuando trataba de usarlo después de haber sido creado previamente me daba error siempre por lo que opte por,lo cual se podrá apreciar en el código,que cada vez que se llame a la función eliminará al índice que esté en disco y creará uno nuevo para que no me de dicho error, cabe decir que esta creación no se toma en cuenta al momento de medir los tiempos de ejecución de la búsqueda en este índice.
+
+En main.py se encuentra la implementación para ver en consola los resultados, en main2.py te muetra los resultados en una página html, la cual es bastante simple y sin diseño ya que no he trabajado mucho diseños antes
